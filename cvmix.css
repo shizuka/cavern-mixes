@@ -1,0 +1,383 @@
+/*
+cavern mixes
+kamishima shizuka
+*/
+body {
+  font-family: 'Lusitana', serif;
+  color: #46433A;
+  background-color: #F1EED9;
+}
+
+header,
+main {
+  padding: 0 20px;
+}
+
+.wrapper {
+  margin-top: 10%;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #CE534D;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e0a193;
+}
+
+.main-list-item {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 0.25em 0;
+}
+
+.main-list-item a {
+  display: block;
+  background: none;
+  padding: 0.25em 0;
+  color: #46433A;
+}
+
+.main-list-item a:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ecd7c4), to(transparent));
+  background-image: linear-gradient(to right, #ecd7c4, transparent);
+  color: #CE534D;
+}
+
+.main-list-item a:hover .main-list-item-icon {
+  color: #CE534D;
+}
+
+/* override the left margin added by font awesome for the main content list,
+since it must be aligned with the content */
+.fa-ul.main-list {
+  margin-left: 0;
+}
+
+/* list icons */
+.main-list-item-icon {
+  width: 36px;
+  color: #46433A;
+}
+
+.fa-ul.inline-list {
+  margin-left: 0;
+}
+
+.inline-list-item {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.social h2 {
+  margin-bottom: 0.5em;
+}
+
+.social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+  padding: 0;
+}
+
+.social li {
+  display: block;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  list-style-type: none;
+  font-size: 2em;
+  padding-right: 0.5em;
+}
+
+.social a {
+  color: #46433A;
+}
+
+.social a:hover {
+  color: #CE534D;
+}
+
+.social [data-tooltip] {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.social [data-tooltip]:before, .social [data-tooltip]:after {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.social [data-tooltip]:hover:before, .social [data-tooltip]:hover:after {
+  visibility: visible;
+  opacity: 1;
+}
+
+.social [data-tooltip]:before {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-bottom: 5px;
+  margin-left: -15px;
+  padding: 7px;
+  width: 90px;
+  border-radius: 3px;
+  background-color: #CE534D;
+  color: #F1EED9;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+/*** logo ***/
+.logo-container {
+  text-align: center;
+}
+
+.logo {
+  width: 96px;
+  height: 96px;
+  display: inline-block;
+  background-size: cover;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  border: 2px solid #F1EED9;
+  -webkit-box-shadow: 0 0 0 3px #46433A;
+          box-shadow: 0 0 0 3px #46433A;
+}
+
+/*** author ***/
+.author-container h1 {
+  font-size: 2.8em;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+/*** tagline ***/
+.tagline-container p {
+  font-size: 1.3em;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.title h1 {
+  margin-bottom: 0;
+}
+
+.title p {
+  margin-top: 0;
+}
+
+/******/
+h2 {
+  margin-top: 0;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#d7d4c1), to(transparent));
+  background-image: linear-gradient(90deg, #d7d4c1, transparent);
+}
+
+/*** footer ***/
+.footer {
+  font-size: 0.9em;
+  font-style: italic;
+  color: #c6c3b1;
+}
+
+.footer span {
+  padding-left: 2.5ex;
+  font-style: normal;
+}
+
+/*** media queries ***/
+/* X-Small devices (phones, 480px and up) */
+@media (min-width: 480px) {
+  /* wrapper stays 480px wide past 480px wide and is kept centered */
+  .wrapper {
+    width: 480px;
+    margin: 10% auto 0 auto;
+  }
+}
+
+/* All other devices (768px and up) */
+@media (min-width: 768px) {
+  /* past 768px the layout is changed and the wrapper has a fixed width of 680px
+	to accomodate both the header column and the content column */
+  .wrapper {
+    width: 680px;
+  }
+  /* the header column stays left and has a dynamic width with all contents
+	aligned right */
+  header {
+    float: left;
+    width: 46%;
+    text-align: right;
+  }
+  .author-container h1,
+  .logo-container,
+  .tagline-container p {
+    text-align: right;
+  }
+  main {
+    width: 46%;
+    margin-left: 54%;
+    padding: 0;
+  }
+}
+
+@font-face {
+  font-family: 'HevteeKornay';
+  src: url(/font/HevteeKornayNTS-Regular.eot);
+  src: url(/font/HevteeKornayNTS-Regular.eot) format("embedded-opentype"), url(/font/HevteeKornayNTS-Regular.woff2) format("woff2"), url(/font/HevteeKornayNTS-Regular.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KerathHand';
+  src: url(/font/KerathHand-Cursive.eot);
+  src: url(/font/KerathHand-Cursive.eot) format("embedded-opentype"), url(/font/KerathHand-Cursive.woff2) format("woff2"), url(/font/KerathHand-Cursive.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.dni {
+  font-family: "HevteeKornay", sans-serif;
+}
+
+.dnihand {
+  font-family: "KerathHand";
+}
+
+.number {
+  font-size: 1em;
+  margin-right: 1ex;
+}
+
+.title h1 {
+  font-size: 1.5em;
+  margin: 0.5rem 0 0 0;
+}
+
+.title h3 {
+  font-style: italic;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 0 0 0.5rem 0.5rem;
+}
+
+.title .mixlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.mixtitle {
+  font-size: 1.5em;
+  margin-bottom: 0.25rem;
+}
+
+.download {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-bottom: 2px solid #bebba9;
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.download .size {
+  font-size: 0.8em;
+}
+
+.download .time {
+  font-size: 1.25em;
+  font-family: monospace;
+}
+
+.tracklist {
+  margin: 0 0 0.25rem;
+  padding: 0;
+}
+
+.tracklist .track {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tracklist .track ul {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+}
+
+.tracklist .track li {
+  list-style-type: none;
+}
+
+.tracklist .track li.time {
+  font-family: monospace;
+  font-size: 1.2em;
+  margin-right: 1.5ex;
+  display: inline-block;
+}
+
+.tracklist .track li.title {
+  font-weight: bold;
+  font-size: 1em;
+  margin-right: 0.2em;
+  display: inline-block;
+}
+
+.tracklist .track li.mix {
+  font-weight: bold;
+  font-size: 0.8em;
+  display: inline-block;
+}
+
+.tracklist .track li.artist {
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.tracklist .track li.album {
+  font-style: italic;
+  font-size: 0.8em;
+  display: inline-block;
+}
+
+.tracklist .track:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.footer {
+  margin-bottom: 5rem;
+}
