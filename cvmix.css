@@ -238,10 +238,14 @@ hr {
     text-align: right;
   }
   main {
-    width: 46%;
+    width: 480px;
     margin-left: 54%;
     padding: 0;
   }
+}
+
+main {
+  margin-bottom: 5rem;
 }
 
 @font-face {
@@ -285,9 +289,17 @@ hr {
   margin: 0 0 0.5rem 0.5rem;
 }
 
-.title .mixlist {
+.mixlist {
   list-style-type: none;
   margin: 0;
+  padding: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.lyriclink {
+  display: block;
+  margin: 1em 0 0 0;
   padding: 0;
   font-size: 1.2em;
   font-weight: bold;
@@ -378,6 +390,78 @@ hr {
   display: table;
 }
 
-.footer {
-  margin-bottom: 5rem;
+.lyriclist {
+  list-style-type: none;
+  margin: 0 0 1em 0;
+  padding: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.lyriclist li {
+  margin-bottom: 0.3em;
+}
+
+.lyriclist .artist {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.lyriclist li span {
+  display: block;
+}
+
+.lyric h3 {
+  font-size: 1.5em;
+  margin: 2rem 0 0 0;
+}
+.lyric h4 {
+  margin: 0;
+}
+.lyric .appears {
+  margin: 0 0 2em 0;
+  font-style: italic;
+  font-size: 0.8em;
+}
+.lyric .appears a {
+  font-style: normal;
+  padding: 0 0.5em 0 0.5em;
+}
+
+.lyric p {
+  line-height: 1.3em;
+  margin-bottom: 2em;
+}
+
+.lyric p.translation {
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+#back-to-top {
+  position: sticky;
+  bottom: 20px;
+  display: block;
+  opacity: 0;
+  transition: opacity .6s ease-in-out;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  margin-left: calc(100% - 3em);
+
+  font-weight: bold;
+  font-size: 0.8em;
+  padding: 1em;
+  background: #CE534D;
+  border-radius: 100px;
+  white-space: nowrap;
+  color: #F1EED9 !important;
+}
+
+#back-to-top:hover {
+  background: #e0a193;
+}
+
+#back-to-top.show {
+  opacity: 1;
 }
