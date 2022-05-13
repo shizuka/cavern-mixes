@@ -18,6 +18,15 @@ kamishima shizuka
   <link href='https://fonts.googleapis.com/css?family=Lusitana' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/cvmix.css">
   
+  <script>
+    window.addEventListener('scroll', function(e) {
+      if ( window.scrollY > 50 ) {
+          document.getElementById("back-to-top").className = 'show';
+      } else {
+        document.getElementById("back-to-top").className = 'hide';
+      }
+    });  
+  </script>
 </head>
 
 <body>
@@ -34,8 +43,14 @@ kamishima shizuka
           <h1 class="dnihand" title="ha-potiokh galpo">ha-potíox galpo</h1>
           <h3>(cavern mixes)</h3>
           <div>
-            <p>trance mixes by kamishima shizuka</p>
+            <p>
+              trance mixes by kamishima shizuka <br />
+              <span class="footer">from the mind of <a href="https://valenheart.com/"><span>marina valenheart</span></a></span>
+            </p>
           </div>
+
+          <hr />
+
           <ul class="mixlist">
             <li><a href="#cvmix1"><span class="dni number">1</span> A New Journey</a></li>
             <li><a href="#cvmix2"><span class="dni number">2</span> Cathedral Zero</a></li>
@@ -43,6 +58,7 @@ kamishima shizuka
             <li><a href="#cvmix4"><span class="dni number">4</span> Sundered Shard</a></li>
             <li><a href="#cvmix5"><span class="dni number">5</span> Light Everlasting</a></li>
           </ul>
+          <a href="#lyrics" class="lyriclink">Lyrics</a>
         </div>
 
         <hr />
@@ -75,7 +91,7 @@ kamishima shizuka
           <ul class="track">
             <li class="time">09:46</li>
             <ul>
-              <li class="title">Someone</li>
+              <li class="title"><a href="#cv1-someone">Someone</a></li>
               <li class="mix">(Slacker's Elevation Vocal Mix)</li>
               <li class="artist">Ascension</li>
             </ul>
@@ -83,7 +99,7 @@ kamishima shizuka
           <ul class="track">
             <li class="time">15:49</li>
             <ul>
-              <li class="title">On a Good Day</li>
+              <li class="title"><a href="#cv1-goodday">On a Good Day</a></li>
               <li class="mix">(Metropolis Mix)</li>
               <li class="artist">Above &amp; Beyond &amp; Gareth Emery pres. Oceanlab</li>
             </ul>
@@ -91,9 +107,9 @@ kamishima shizuka
           <ul class="track">
             <li class="time">22:20</li>
             <ul>
-              <li class="title">Sunset Boulevard</li>
+              <li class="title"><a href="#cv1-sunset">Sunset Boulevard</a></li>
               <li class="mix">(Original Mix)</li>
-              <li class="artist">Alex M.O.R.P.H.</li>
+              <li class="artist">Alex M.O.R.P.H. feat. Ana Criado</li>
             </ul>
           </ul>
           <ul class="track">
@@ -107,7 +123,7 @@ kamishima shizuka
           <ul class="track">
             <li class="time">34:47</li>
             <ul>
-              <li class="title">The Great Divide</li>
+              <li class="title"><a href="#cv1-divide">The Great Divide</a></li>
               <li class="mix">(Seven Lions Remix)</li>
               <li class="artist">Velvetine</li>
             </ul>
@@ -158,8 +174,8 @@ kamishima shizuka
           <ul class="track">
             <li class="time">00:00</li>
             <ul>
-              <li class="title">Information</li>
-              <li class="mix"><a href="http://www.inbflat.net/faq.html" target="_blank">(In B Flat)</a></li>
+              <li class="title"><a href="#cv2-information">Information</a></li>
+              <li class="mix">(In B Flat)</li>
               <li class="artist">Daniel Donahoo</li>
             </ul>
           </ul>
@@ -181,7 +197,7 @@ kamishima shizuka
           <ul class="track">
             <li class="time">09:55</li>
             <ul>
-              <li class="title">Trapped</li>
+              <li class="title"><a href="#cv2-trapped">Trapped</a></li>
               <li class="mix">(Vocal Mix)</li>
               <li class="artist">Myon and Shane 54</li>
             </ul>
@@ -205,7 +221,7 @@ kamishima shizuka
           <ul class="track">
             <li class="time">28:46</li>
             <ul>
-              <li class="title">Human</li>
+              <li class="title"><a href"#cv2-human">Human</a></li>
               <li class="mix">(Armin van Buuren Club Mix)</li>
               <li class="artist">The Killers</li>
             </ul>
@@ -213,7 +229,7 @@ kamishima shizuka
           <ul class="track">
             <li class="time">35:49</li>
             <ul>
-              <li class="title">Unforgivable</li>
+              <li class="title"><a href="#cv2-unforgivable">Unforgivable</a></li>
               <li class="mix">(First State Smooth Mix)</li>
               <li class="artist">Armin van Buuren feat. Jaren</li>
             </ul>
@@ -262,7 +278,7 @@ kamishima shizuka
           <ul class="track">
             <li class="time">00:00</li>
             <ul>
-              <li class="title">The Grid</li>
+              <li class="title"><a href="#cv3-grid">The Grid</a></li>
               <li class="mix">(vs Recognizer)</li>
               <li class="artist">Daft Punk</li>
             </ul>
@@ -300,14 +316,14 @@ kamishima shizuka
           <ul class="track">
             <li class="time">27:09</li>
             <ul>
-              <li class="title">Remember</li>
+              <li class="title"><a href="#cv3-remember">Remember</a></li>
               <li class="artist">BT</li>
             </ul>
           </ul>
           <ul class="track">
             <li class="time">34:31</li>
             <ul>
-              <li class="title">I Am What I Am</li>
+              <li class="title"><a href="#cv3-iam">I Am What I Am</a></li>
               <li class="mix">(Lange Remix)</li>
               <li class="artist">Above &amp; Beyond pres. Oceanlab</li>
             </ul>
@@ -326,7 +342,7 @@ kamishima shizuka
           <ul class="track">
             <li class="time">49:42</li>
             <ul>
-              <li class="title">Extraordinary Way</li>
+              <li class="title"><a href="#cv3-extraordinary">Extraordinary Way</a></li>
               <li class="mix">(Antillas Club Mix)</li>
               <li class="artist">Conjure One</li>
             </ul>
@@ -334,7 +350,7 @@ kamishima shizuka
           <ul class="track">
             <li class="time">55:59</li>
             <ul>
-              <li class="title">Saihate</li>
+              <li class="title"><a href="#cv3-saihate">Saihate</a></li>
               <li class="mix">(Piano Cover Version)</li>
               <li class="artist">kz feat. Hatsune Miku</li>
             </ul>
@@ -345,7 +361,7 @@ kamishima shizuka
 
         <h2 id="cvmix4" class="mixtitle"><span class="dni number">4</span> Sundered Shard</h2>
         <div class="download">
-          <span class="time">60:43</span> &#8226; 
+          <span class="time">60:06</span> &#8226; 
           <a href="https://drive.google.com/open?id=18W0_RZQZVQwrRY_AwOifPJ7UPGc0NbZ3" target="_blank">
             <i class="fa fa-download"></i> download 
             <span class="size">(138MB)</span>
@@ -356,15 +372,22 @@ kamishima shizuka
             <li class="time">00:00</li>
             <ul>
               <li class="title">Kawasaki Warehouse</li>
-              <li class="artist">Kalax (w/ Alan Watts)</li>
+              <li class="artist">Kalax</li>
             </ul>
           </ul>
           <ul class="track">
-            <li class="time">01:40</li>
+            <li class="time">00:34</li>
             <ul>
-              <li class="title">Return to Oblivion</li>
+              <li class="title"><a href="#cv4-love">Falling in Love</a></li>
+              <li class="artist">Alan Watts</li>
+            </ul>
+          </ul>
+          <ul class="track">
+            <li class="time">02:10</li>
+            <ul>
+              <li class="title"><a href="#cv4-oblivion">Return to Oblivion</a></li>
               <li class="mix">(Eden Refulgence)</li>
-              <li class="artist">Masayoshi Soken</li>
+              <li class="artist">Masayoshi Soken feat. Reven</li>
             </ul>
           </ul>
           <ul class="track">
@@ -378,7 +401,7 @@ kamishima shizuka
           <ul class="track">
             <li class="time">12:20</li>
             <ul>
-              <li class="title">Naturally</li>
+              <li class="title"><a href="#cv4-naturally">Naturally</a></li>
               <li class="mix">(Trance Mix)</li>
               <li class="artist">Ayumi Hamasaki</li>
             </ul>
@@ -394,7 +417,7 @@ kamishima shizuka
           <ul class="track">
             <li class="time">22:36</li>
             <ul>
-              <li class="title">I Wish</li>
+              <li class="title"><a href="#cv4-iwish">I Wish</a></li>
               <li class="mix">(Skazi Brutal Mix)</li>
               <li class="artist">Infected Mushroom</li>
             </ul>
@@ -409,14 +432,14 @@ kamishima shizuka
           <ul class="track">
             <li class="time">34:43</li>
             <ul>
-              <li class="title">Extollere</li>
+              <li class="title"><a href="#cv4-extollere">Extollere</a></li>
               <li class="artist">Delerium feat. Katharine Blake</li>
             </ul>
           </ul>
           <ul class="track">
             <li class="time">39:28</li>
             <ul>
-              <li class="title">Smashing the Opponent</li>
+              <li class="title"><a href="#cv4-smashing">Smashing the Opponent</a></li>
               <li class="mix">(Adam White Perfecto Remix)</li>
               <li class="artist">Infected Mushroom</li>
             </ul>
@@ -431,14 +454,14 @@ kamishima shizuka
           <ul class="track">
             <li class="time">49:33</li>
             <ul>
-              <li class="title">Uninstall</li>
+              <li class="title"><a href="#cv4-uninstall">Uninstall</a></li>
               <li class="artist">Ishikawa Chiaki</li>
             </ul>
           </ul>
           <ul class="track">
             <li class="time">53:58</li>
             <ul>
-              <li class="title">Answers</li>
+              <li class="title"><a href="#cv4-answers">Answers</a></li>
               <li class="artist">Nobuo Uematsu feat. Susan Calloway</li>
             </ul>
           </ul>
@@ -458,8 +481,8 @@ kamishima shizuka
           <ul class="track">
             <li class="time">00:00</li>
             <ul>
-              <li class="title">The Next Room</li>
-              <li class="artist"><a href="https://www.bethanwalker.com/" target="_blank">Bethan Walker</a></li>
+              <li class="title"><a href="#cv5-nextroom">The Next Room</a></li>
+              <li class="artist">Henry Scott Holland, as read by <a href="https://www.bethanwalker.com/" target="_blank">Bethan Walker</a></li>
             </ul>
           </ul>
           <ul class="track">
@@ -481,7 +504,7 @@ kamishima shizuka
           <ul class="track">
             <li class="time">06:08</li>
             <ul>
-              <li class="title">Unforgivable</li>
+              <li class="title"><a href="#cv2-unforgivable">Unforgivable</a></li>
               <li class="mix">(Stoneface &amp; Terminal Vocal Mix)</li>
               <li class="artist">Armin van Buuren feat. Jaren</li>
             </ul>
@@ -497,7 +520,7 @@ kamishima shizuka
           <ul class="track">
             <li class="time">19:36</li>
             <ul>
-              <li class="title">Hide and Seek</li>
+              <li class="title"><a href="#cv5-hide">Hide and Seek</a></li>
               <li class="mix">(Club Mix)</li>
               <li class="artist">Kyau and Albert</li>
             </ul>
@@ -505,7 +528,7 @@ kamishima shizuka
           <ul class="track">
             <li class="time">24:42</li>
             <ul>
-              <li class="title">Icarus</li>
+              <li class="title"><a href="#cv5-icarus">Icarus</a></li>
               <li class="mix">(Sanxion7 Remix)</li>
               <li class="artist">Flutlicht</li>
             </ul>
@@ -536,7 +559,7 @@ kamishima shizuka
           <ul class="track">
             <li class="time">49:36</li>
             <ul>
-              <li class="title">Home</li>
+              <li class="title"><a href="#cv5-home">Home</a></li>
               <li class="mix">(Above &amp; Beyond Club Mix)</li>
               <li class="artist">Above &amp; Beyond feat. Hannah Thomas</li>
             </ul>
@@ -544,7 +567,7 @@ kamishima shizuka
           <ul class="track">
             <li class="time">56:48</li>
             <ul>
-              <li class="title">Brave Song</li>
+              <li class="title"><a href="#cv5-brave">Brave Song</a></li>
               <li class="mix">(Gldemo Ver.)</li>
               <li class="artist">Girls Dead Monster</li>
             </ul>
@@ -553,11 +576,1197 @@ kamishima shizuka
 
         <hr />
 
-        <div class="footer">
-          from the mind of <a href="https://valenheart.com/"><span>marina valenheart</span></a>
+        <h2 id="lyrics">Lyrics</h2>
+        <ul class="lyriclist">
+          <li><a href="#cv1-someone">Someone</a> <span class="artist">Ascension</span></li>
+          <li><a href="#cv1-goodday">On A Good Day</a> <span class="artist">Oceanlab</span></li>
+          <li><a href="#cv1-sunset">Sunset Boulevard</a> <span class="artist">Alex M.O.R.P.H. feat. Ana Criado</span></li>
+          <li><a href="#cv1-divide">The Great Divide</a> <span class="artist">Velvetine</span></li>
+        </ul>
+
+        <ul class="lyriclist">
+          <li><a href="#cv2-information">Information in B Flat</a> <span class="artist">Daniel Donahoo</span></li>
+          <li><a href="#cv2-trapped">Trapped</a> <span class="artist">Myon and Shane 54</span></li>
+          <li><a href="#cv2-human">Human</a> <span class="artist">The Killers</span></li>
+          <li><a href="#cv2-unforgivable">Unforgivable</a> <span class="artist">Armin van Buuren feat. Jaren</span></li>
+        </ul>
+
+        <ul class="lyriclist">
+          <li><a href="#cv3-grid">The Grid</a> <span class="artist">Daft Punk feat. Jeff Bridges</span></li>
+          <li><a href="#cv3-remember">Remember</a> <span class="artist">BT</span></li>
+          <li><a href="#cv3-iam">I Am What I Am</a> <span class="artist">Oceanlab</span></li>
+          <li><a href="#cv3-extraordinary">Extraordinary Way</a> <span class="artist">Conjure One</span></li>
+          <li><a href="#cv3-saihate">Saihate</a> <span class="artist">kz feat. Hatsune Miku</span></li>
+        </ul>
+
+        <ul class="lyriclist">
+          <li><a href="#cv4-love">Falling In Love</a> <span class="artist">Alan Watts</span></li>
+          <li><a href="#cv4-oblivion">Return to Oblivion</a> <span class="artist">Masayoshi Soken feat. Reven</span></li>
+          <li><a href="#cv4-naturally">Naturally</a> <span class="artist">Ayumi Hamasaki</span></li>
+          <li><a href="#cv4-iwish">I Wish</a> <span class="artist">Infected Mushroom</span></li>
+          <li><a href="#cv4-extollere">Extollere</a> <span class="artist">Delerium</span></li>
+          <li><a href="#cv4-smashing">Smashing the Opponent</a> <span class="artist">Infected Mushroom</span></li>
+          <li><a href="#cv4-uninstall">Uninstall</a> <span class="artist">Ishikawa Chiaki</span></li>
+          <li><a href="#cv4-answers">Answers</a> <span class="artist">Nobuo Uematsu feat. Susan Calloway</span></li>
+        </ul>
+
+        <ul class="lyriclist">
+          <li><a href="#cv5-nextroom">The Next Room</a> <span class="artist">Henry Scott Holland</span></li>
+          <li><a href="#cv5-hide">Hide and Seek</a> <span class="artist">Kyau and Albert</span></li>
+          <li><a href="#cv5-icarus">Icarus</a> <span class="artist">Flutlicht</span></li>
+          <li><a href="#cv5-home">Home</a> <span class="artist">Above &amp; Beyond feat. Hannah Thomas</span></li>
+          <li><a href="#cv5-brave">Brave Song</a> <span class="artist">Girls Dead Monster</span></li>
+        </ul>
+
+        <hr />
+
+        <div class="lyric" id="cv1-someone">
+          <h3>Someone</h3>
+          <h4>Ascension</h4>
+          <p class="appears">Appears on <a href="#cvmix1"><span class="dni number">1</span>A New Journey</a></p>
+          <p>
+            I need a spirit who can touch my life<br />
+            I need a voice to speak the truth<br />
+            I need a soul who will be on my side<br />
+            I need a heart I'll never lose<br />
+            <br />
+            Someone like you<br />
+            <br />
+            Sometimes I wonder if my dreams are right<br />
+            Sometimes I know they'll all come true<br />
+            I need somebody who can move my way<br />
+            Someone who knows just what to do<br />
+            <br />
+            Someone like you
+          </p>
         </div>
 
+        <hr />
+
+        <div class="lyric" id="cv1-goodday">
+          <h3>On a Good Day</h3>
+          <h4>Oceanlab</h4>
+          <p class="appears">Appears on <a href="#cvmix1"><span class="dni number">1</span>A New Journey</a></p>
+          <p>
+            Little bit lost, and<br />
+            a little bit lonely<br />
+            Little bit cold here<br />
+            A little bit of fear<br />
+            <br />
+            But I hold on<br />
+            and I feel strong<br />
+            and I know that I can<br />
+            Getting used to it<br />
+            lit the fuse to it<br />
+            I'd like to know who I am<br />
+            <br />
+            Been talking to myself forever<br />
+            And how I used to know me better<br />
+            Still sitting on the shelf but never<br />
+            Never seen the sun shine brighter<br />
+            And it feels like me on a good day<br />
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="lyric" id="cv1-sunset">
+          <h3>Sunset Boulevard</h3>
+          <h4>Alex M.O.R.P.H. feat. Ana Criado</h4>
+          <p class="appears">Appears on <a href="#cvmix1"><span class="dni number">1</span>A New Journey</a></p>
+          <p>
+            Black or white<br />
+            We look at what we were<br />
+            Whether wrong or right<br />
+            no one can tell<br />
+            <br />
+            Whatever it takes<br />
+            The reason to believe you<br />
+            I won't let go<br />
+            Holding onto innocent meaning<br />
+            <br />
+            Sunset Boulevard<br />
+            Don't fade away<br />
+            Let's take a walk in the dark<br />
+            Sunset Boulevard<br />
+            Let's make believe<br />
+            All that matters was written in your heart
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="lyric" id="cv1-divide">
+          <h3>The Great Divide</h3>
+          <h4>Velvetine</h4>
+          <p class="appears">Appears on <a href="#cvmix1"><span class="dni number">1</span>A New Journey</a></p>
+          <p>
+            Walls around your heart<br />
+            I wanna get in<br />
+            I wanna know you<br />
+            <br />
+            You're scared to lose it all<br />
+            I know who you've been<br />
+            But I'll take a chance on you<br />
+            <br />
+            You fight the light<br />
+            You push it away<br />
+            You're gone with the wind at the end of the day<br />
+            But where are you going?<br />
+            <br />
+            You play it safe<br />
+            So there's nothing to win<br />
+            I wanna come closer but you won't let me in<br />
+            I wanna go where you're going<br />
+            <br />
+            Pull me in tonight and stay forever<br />
+            I wanna know the secrets of your heart<br />
+            Let's begin tonight<br />
+            It's now or never<br />
+            Love won't happen til you try to cross the Great Divide
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="lyric" id="cv2-information">
+          <h3>Information</h3>
+          <h4>Daniel Donahoo &mdash; <a href="http://www.inbflat.net/faq.html" target="_blank">In B Flat Project</a></h4>
+          <p class="appears">Appears on <a href="#cvmix2"><span class="dni number">2</span>Cathedral Zero</a></p>
+          <p>
+            She closes the lid<br />
+            and unplugs the device no bigger than her thumb from the computer.<br />
+            My life's work, she says. But, it isn't her life's work.<br />
+            <br />
+            You see, we store information like an Escher painting.<br />
+            It shouldnt all fit in there. But, it does.<br />
+            And every day we manage to fit more and more<br />
+            into smaller and smaller spaces<br />
+            until one day, she says,<br />
+            we will be able to fit all the information the world has.<br />
+            Everything that everyone knows and believes and dreams<br />
+            into nothing.<br />
+            <br />
+            It will all be there. Stored and filed.<br />
+            Tagged with any keywords you might imagine.<br />
+            Our hard drives will be thin air.<br />
+            They will make nanobots look like elephants,<br />
+            and elephants will be in there too. Tagged.<br />
+            Accessible with search terms like grey, ivory,<br />
+            and the largest land dwelling mammal.<br />
+            <br />
+            We'll process away at nothing and understand everything.<br />
+            We'll think of a word and the information will slip in,<br />
+            not through our ears or eyes but straight through our skin.<br />
+            Information will breathe in and out of us, permeate our skin.<br />
+            Our knowing will be as deep as it is wide.<br />
+            You see our work here is to learn so much, to be so full of knowing,<br />
+            that all there is left to do is unlearn.<br />
+            <br />
+            Humanity must get to a point where we let go.<br />
+            We leave the useless ideas and the spent ideologies in the recycle bin.<br />
+            Like an adolescent brain shedding neurons.<br />
+            Like a snake slithering from its old skin.<br />
+            Like an old man who has come to understand so well<br />
+            the point where reality meets the intangible<br />
+            that he is able to decide which breath will be his last.<br />
+            And he will enjoy that breath more than any that he has taken<br />
+            in his entire life.<br />
+            <br />
+            And her life's work is more than a four meg flash drive.<br />
+            My lifes work, she says, is the impact that this has.<br />
+            This is not about what I produce. It is all about what others receive.
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="lyric" id="cv2-trapped">
+          <h3>Trapped</h3>
+          <h4>Myon and Shane 54</h4>
+          <p class="appears">Appears on <a href="#cvmix2"><span class="dni number">2</span>Cathedral Zero</a></p>
+          <p>
+            You can't escape from the sound<br />
+            It is all you can think about<br />
+            Silent words from the world<br />
+            Come and be your guide tonight<br />
+            Sea of sin, diving in<br />
+            It is all that you think about<br />
+            And you will see<br />
+            all the music has trapped in your eyes
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="lyric" id="cv2-human">
+          <h3>Human</h3>
+          <h4>The Killers</h4>
+          <p class="appears">Appears on <a href="#cvmix2"><span class="dni number">2</span>Cathedral Zero</a></p>
+          <p>
+            I did my best to notice<br />
+            when the call came down the line<br />
+            Up to the platform of surrender<br />
+            I was brought but I was kind<br />
+            And sometimes I get nervous<br />
+            when I see an open door<br />
+            Close your eyes<br />
+            Clear your heart<br />
+            <br />
+            Pay my respects to grace and virtue<br />
+            Send my condolences to good<br />
+            Give my regards to soul and romance<br />
+            They always did the best they could<br />
+            And so long to devotion<br />
+            You taught me everything I know<br />
+            Wave goodbye<br />
+            Wish me well<br />
+            You gotta let me go<br />
+            <br />
+            Are we human<br />
+            or are we dancer?<br />
+            My sign is vital<br />
+            My hands are cold<br />
+            And I'm on my knees<br />
+            looking for the answer<br />
+            Are we human<br />
+            or are we dancer?<br />
+            <br />
+            Will your system be alright<br />
+            when you dream of home tonight?<br />
+            There is no message we're receiving<br />
+            Let me know, is your heart still beating?<br />
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="lyric" id="cv2-unforgivable">
+          <h3>Unforgivable</h3>
+          <h4>Armin van Buuren feat. Jaren</h4>
+          <p class="appears">Appears on <a href="#cvmix2"><span class="dni number">2</span>Cathedral Zero</a> and <a href="#cvmix5"><span class="dni number">5</span>Light Everlasting</a></p>
+          <p>
+            You used to light up the dark<br />
+            with your unrelenting spark<br />
+            You always put a fire in me<br />
+            You used to say I'm the one<br />
+            The only ray of sun you could touch<br />
+            without the fear of burning<br />
+            <br />
+            Well you used to try to please me<br />
+            Yeah you used to try to please me<br />
+            Never said this would be easy<br />
+            Never said this would be easy<br />
+            <br />
+            Well you tell me now<br />
+            While you hold her in your arms<br />
+            are you pretending she's me?<br />
+            Just how long will you go on<br />
+            before you realize you know she's the one<br />
+            that you're going to lose her anyway?<br />
+            <br />
+            You just got there, now you're leaving<br />
+            You just got there, now you're leaving<br />
+            Your sweet nothings are deceiving<br />
+            Your sweet nothings are deceiving<br />
+            <br />
+            Well it ain't over 'til it's over<br />
+            and my world comes down<br />
+            But this comes close, I'll have you know<br />
+            It's just a matter of time<br />
+            Well it ain't over 'til it's over!<br />
+            But I won't be made a fool!<br />
+            Cause leaving me the way you did was just so<br />
+            Unforgivable
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="lyric" id="cv3-grid">
+          <h3>The Grid</h3>
+          <h4>Daft Punk feat. Jeff Bridges</h4>
+          <p class="appears">Appears on <a href="#cvmix3"><span class="dni number">3</span>Anbaric Theory</a></p>
+          <p>
+            The Grid<br />
+            A digital frontier<br />
+            <br />
+            I tried to picture clusters of information<br />
+            as they moved through the computer<br />
+            What did they look like?<br />
+            <br />
+            Ships? Motorcycles?<br />
+            Were the circuits like freeways?<br />
+            I kept dreaming of a world I thought I'd never see<br />
+            <br />
+            And then, one day<br />
+            <br />
+            I got in
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="lyric" id="cv3-remember">
+          <h3>Remember</h3>
+          <h4>BT</h4>
+          <p class="appears">Appears on <a href="#cvmix3"><span class="dni number">3</span>Anbaric Theory</a></p>
+          <p>
+            I know how you feel<br />
+            I'm feeling it too<br />
+            I hold my heart, I dream of you<br />
+            I see your face, I feel it too<br />
+            Searching skies<br />
+            I need you<br />
+            I miss you<br />
+            <br />
+            Take this and hold<br />
+            My love for you<br />
+            In separate times we think as two<br />
+            In paradise I'll drown in you<br />
+            Still searching skies<br />
+            I need you<br />
+            I want you<br />
+            <br />
+            Searching for strength<br />
+            Can I face this day?<br />
+            Blinded by your love we stay<br />
+            You're always there, you're in my head<br />
+            Still chasing skies<br />
+            I need you<br />
+            Oh, I miss you<br />
+            <br />
+            I love you, I love you<br />
+            I love only you, love you<br />
+            <br />
+            Remember me near<br />
+            There may be times when it's not right<br />
+            For me to be there<br />
+            But remember me near
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="lyric" id="cv3-iam">
+          <h3>I Am What I Am</h3>
+          <h4>Oceanlab</h4>
+          <p class="appears">Appears on <a href="#cvmix3"><span class="dni number">3</span>Anbaric Theory</a></p>
+          <p>
+            I know you've read<br />
+            so many books<br />
+            You keep abreast of all the things you think you should<br />
+            You've got your own homegrown philosophy<br />
+            It works for you<br />
+            But please don't try to make it work for me<br />
+            <br />
+            I know you feel<br />
+            you need to prove<br />
+            that you are good at simply everything you try to do<br />
+            And people hang on your every word<br />
+            that you deliver<br />
+            with conviction<br />
+            Though they may just be absurd<br />
+            <br />
+            Stop trying to change me<br />
+            I am what I am<br />
+            No I don't need you to save me<br />
+            I am what I am<br />
+            I don't need you to show me<br />
+            Because I stand where I stand<br />
+            I just need you to know me<br />
+            Just know who I am<br />
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="lyric" id="cv3-extraordinary">
+          <h3>Extraordinary Way</h3>
+          <h4>Conjure One</h4>
+          <p class="appears">Appears on <a href="#cvmix3"><span class="dni number">3</span>Anbaric Theory</a></p>
+          <p>
+            What I have is nothing to my name<br />
+            No property to speak of<br />
+            No trophy for my game<br />
+            Intangible and worthless<br />
+            My assets on the page<br />
+            My coffers are empty<br />
+            Any offer of safety has faded away<br />
+            But what I have<br />
+            What I have is<br />
+            <br />
+            On an ordinary day<br />
+            The extraordinary way<br />
+            You take what I can give and you treasure it<br />
+            On an ordinary day<br />
+            The extraordinary way<br />
+            You turn to me and say, I believe in this<br />
+            <br />
+            That makes me lucky<br />
+            God, I'm lucky, so much luckier than I ever thought I'd be<br />
+            'Cause what I have (what I have)<br />
+            Means so very little to this world<br />
+            A promise that I kept and a bridge that I saved before it burned<br />
+            The sacrifice that I made<br />
+            Brought me to my knees<br />
+            A choice that cost me everything and set somebody else free<br />
+            But what I have<br />
+            Is the value that you see in these things<br />
+            <br />
+            On an ordinary day<br />
+            The extraordinary way<br />
+            You take what I can give and you treasure it<br />
+            On an ordinary day<br />
+            The extraordinary way<br />
+            You turn to me and say, I believe in this<br />
+            <br />
+            And everytime I forget those things you bring them right back to me<br />
+            <br />
+            With your patience<br />
+            When I'm blinding mad<br />
+            And your passion<br />
+            When I'm really, really bad<br />
+            And your eyes<br />
+            Taking in everything I am<br />
+            And your body and soul and the way that you know<br />
+            How I treasure you<br />
+            <br />
+            On an ordinary day<br />
+            The extraordinary way<br />
+            You take what I can give and you treasure it<br />
+            On an ordinary day<br />
+            The extraordinary way<br />
+            You turn to me and say, I believe in this
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="lyric" id="cv3-saihate">
+          <h3>Saihate</h3>
+          <h4>Hatsune Miku</h4>
+          <p class="appears">Appears on <a href="#cvmix3"><span class="dni number">3</span>Anbaric Theory</a></p>
+          <p class="romaji">
+            mukou wa donna tokoro nan darou ne?<br />
+            buji ni tsuitara tayori demo hoshii yo<br />
+            tobira o hiraite<br />
+            kanata e to mukau anata e<br />
+            kono utagoe to inori ga<br />
+            todokeba ii naa<br />
+            <br />
+            kumo hitotsu nai you na<br />
+            nukeru hodo seiten no kyou wa<br /> 
+            kanashii kurai ni owakare biyori de<br /> 
+            <br />
+            arifureta jinsei o akaku irozukeru you na<br />
+            taoyaka na koi deshita<br />
+            taoyaka na koi deshita<br />
+            sayonara<br />
+            <br />
+            mata itsu no hi ni ka<br />
+            deaeru to shinjiraretara<br />
+            kore kara no hibi mo kawarazu<br />
+            yarisugoseru ne<br />
+            <br />
+            tobira ga shimareba<br />
+            kono mama hanarebanare da<br />
+            anata no kemuri wa kumo to nari ame ni naru yo<br />
+            <br />
+            arifureta jinsei o akaku irozukeru you na<br />
+            taoyaka na koi deshita<br />
+            taoyaka na koi deshita<br />
+            sayonara
+          </p>
+          <p class="translation">
+            What is it like over there?<br />
+            I'd like to hear from you, if you arrived safely<br />
+            To you, who is opening the door and heading that way<br />
+            I can only hope this song and prayer come through<br />
+            <br />
+            A sunny day such as today, like there's not a cloud in the sky<br />
+            Is such perfect weather for parting that it's sad<br />
+            <br />
+            As if painting my uneventful days in scarlet<br />
+            It was such a graceful love<br />
+            such a graceful love<br />
+            Farewell<br />
+            <br />
+            If we can believe that we'll be able to meet again someday<br />
+            Without changing<br />
+            We can let the days from here on out go by too<br /> 
+            <br />
+            When the door shuts we'll remain broken up<br />
+            Your smoke will become a cloud and turn into rain<br />
+            <br />
+            As if painting my uneventful days in scarlet<br />
+            It was such a graceful love<br />
+            such a graceful love<br />
+            Farewell
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="lyric" id="cv4-love">
+          <h3>Falling in Love</h3>
+          <h4>Alan Watts</h4>
+          <p class="appears">Appears on <a href="#cvmix4"><span class="dni number">4</span>Sundered Shard</a></p>
+          <p>
+            Well now really, when we go back then to falling in love<br />
+            and say it's crazy.<br />
+            <br />
+            "Falling."<br />
+            <br />
+            You see, we don't say "rising into love".<br />
+            There is in it the idea of the Fall.<br />
+            And it goes back as a matter of fact to extremely simple things.<br />
+            That there is always a curious tie at some point,<br />
+            between the Fall and the Creation.<br />
+            Taking this ghastly risk is the condition of there being life.<br />
+            <br />
+            You see for all, life is an act of faith and an active gamble.<br />
+            The moment you take a step,y ou do so on an act of faith<br />
+            because you don't really know that the floor isn't<br />
+            going to give under your feet.<br />
+            <br />
+            The moment you take a journey, what an act of faith!<br />
+            The moment you enter any kind<br />
+            of human undertaking or relationship,<br />
+            what an act of faith!<br />
+            You see, you've given yourself up.<br />
+            <br />
+            But this is the most powerful thing that can be done: surrender!<br />
+            You see, and love is an act of surrender to another person.<br />
+            <br />
+            I give myself.<br />
+            <br />
+            Take me.
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="lyric" id="cv4-oblivion">
+          <h3>Return to Oblivion</h3>
+          <h4>Masayoshi Soken feat. Reven</h4>
+          <p class="appears">Appears on <a href="#cvmix4"><span class="dni number">4</span>Sundered Shard</a></p>
+          <p>
+            Wanting I lie, too weary to die<br />
+            Too lost to the ice for saving<br />
+            My sins claim me, untame me<br />
+            <br />
+            Eyes wet with tears<br />
+            Her song in my ears<br />
+            Broken, faded<br />
+            How long have I waited<br />
+            to open my wings?<br />
+            <br />
+            Turn the light on<br />
+            And let her in won't you turn the light on?<br />
+            (Turn the light on!)<br />
+            <br />
+            Turn the light on<br />
+            You'll never win 'less you turn the light on!<br />
+            (Turn the light on!)<br />
+            <br />
+            Turn the light on<br />
+            The pain won't end 'til you turn the light on<br />
+            (Turn the light on!)<br />
+            <br />
+            The soul longs for oblivion<br />
+            Oblivion!<br />
+            <br />
+            Falling too far for the fear to embrace me<br />
+            A voice from the past screaming there is no end (no)<br />
+            A slave to my fate ever doomed to repeat this<br />
+            Again and again and again and again!<br />
+            I am falling too fast but it won't overtake me<br />
+            A voice from the past echoes out like a drum (oh yes)<br />
+            No more goodbyes though my heart is still aching<br />
+            Now open my eyes one more time here I come!<br />
+            <br />
+            Reason resigned, dark seasons' design<br />
+            Spring's promise of summer's honored<br />
+            when winter's weighed down on us<br />
+            <br />
+            Visions in white<br />
+            Raw fury in flight<br />
+            Clear as diamond<br />
+            Yet fragile as ice<br />
+            My heart is racing!<br />
+            <br />
+            Turn the light on<br />
+            And let her in won't you turn the light on?<br />
+            (Turn the light on!)<br />
+            <br />
+            Turn the light on<br />
+            You'll never win 'less you turn the light on!<br />
+            (Turn the light on!)<br />
+            <br />
+            Turn the light on<br />
+            The pain won't end 'til you turn the light on<br />
+            (Turn the light on!)<br />
+            <br />
+            The soul longs for oblivion<br />
+            Oblivion!<br />
+            <br />
+            Falling too far for the fear to embrace me<br />
+            A voice from the past screaming there is no end (no)<br />
+            A slave to my fate ever doomed to repeat this<br />
+            Again and again and again and again!<br />
+            I am falling too fast but the fall will not break me<br />
+            The voice from the past echoes out like a drum (oh yes)<br />
+            No more goodbyes I am tired of waiting<br />
+            Now open my eyes one last time here I come!<br />
+            Here I come!
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="lyric" id="cv4-naturally">
+          <h3>Naturally</h3>
+          <h4>Ayumi Hamasaki</h4>
+          <p class="appears">Appears on <a href="#cvmix4"><span class="dni number">4</span>Sundered Shard</a></p>
+          <p class="romaji">
+            ano basho ni ikitakutte<br />
+            tabi ni deru shitaku shite<br />
+            ato wa tada hitasura hashiri-tsudzukete<br />
+            <br />
+            chikazukeba chikazuku hodo<br />
+            dokotonaku kidzukidashite<br />
+            nanoni mada mite minu furi nante shite<br />
+            <br />
+            dakedo mou hikikaesu<br />
+            koto nante dekinai you na<br />
+            tokoro made kita koro ni chuucho shi-dashite<br />
+            <br />
+            tachidomaru sore sae mo<br />
+            kowakutte kowaresou de<br />
+            naite ita watashi ni anata wa itta<br />
+            <br />
+            kanashii no wa akiramete shimau koto da to<br />
+            <br />
+            utsukushi-sugiru mono bakari<br />
+            atsumete narabete nagamete<br />
+            kirei na yume bakari mite wa<br />
+            genjitsu wo tada nageite’ta no<br />
+            <br />
+            shiawase no katachi nante<br />
+            tsukurou to shite mitatte<br />
+            aijou ni wake wa nai no to onaji de<br />
+            <br />
+            kitto sou atama no naka<br />
+            muzukashiku kangae-sugi<br />
+            deru hazu mo nai kotae sagashite ita<br />
+            <br />
+            tanoshii dake sonna hibi wa mou iranai<br />
+            <br />
+            oikakete owarete’ru uchi ni<br />
+            ibasho sura miushinaisou de<br />
+            kore ijou kizutsukanu you ni to<br />
+            me wo tojita mama se wo mukete’ta<br />
+            <br />
+            utsukushi-sugiru mono bakari<br />
+            atsumete narabete nagamete<br />
+            kirei na yume bakari mite wa<br />
+            genjitsu wo tada nageite’ta no<br />
+            <br />
+            koko ga donna basho de attemo<br />
+            kore kara doko wo toottemo<br />
+            jiyuu to kodoku wake-atte<br />
+            ima nara arinomama ikesou
+          </p>
+          <p class="translation">
+            I wanted to go there<br />
+            So I got ready to go on a trip<br />
+            And then I just kept running<br />
+            <br />
+            And the closer I got<br />
+            The more I started to realize, somehow<br />
+            Even though I still pretended like I didn’t see it<br />
+            <br />
+            But now I’m starting to hesitate<br />
+            At a point where it doesn’t look<br />
+            Like I can turn back anymore<br />
+            <br />
+            You told me when I was crying<br />
+            Because I was scared of even stopping<br />
+            And ready to just fall apart<br />
+            <br />
+            “The thought of giving up is what’s making you sad”<br />
+            <br />
+            I was just collecting things that were beautiful,<br />
+            Lining them up and staring at them,<br />
+            Only having dreams that were neat and pretty<br />
+            And sighing at my reality<br />
+            <br />
+            Try all you want<br />
+            To give happiness a shape<br />
+            Just like love, there’s no reason to it<br />
+            <br />
+            I know, I was thinking<br />
+            About things way too hard<br />
+            And looking for an answer that wouldn’t come<br />
+            <br />
+            I don’t need my life to be all fun and games<br />
+            <br />
+            I even lost sight of where I belonged<br />
+            As I chased after things, and was chased myself<br />
+            And I turned my back, eyes closed<br />
+            Hoping never to get hurt again<br />
+            <br />
+            I was just collecting things that were beautiful,<br />
+            Lining them up and staring at them,<br />
+            Only having dreams that were neat and pretty<br />
+            And sighing at my reality<br />
+            <br />
+            Wherever we are now<br />
+            Wherever we end up passing through<br />
+            Share your freedom and your loneliness with me<br />
+            To be honest with you, I think things would be great between us now.
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="lyric" id="cv4-iwish">
+          <h3>I Wish</h3>
+          <h4>Infected Mushroom</h4>
+          <p class="appears">Appears on <a href="#cvmix4"><span class="dni number">4</span>Sundered Shard</a></p>
+          <p>
+            I wish to give, to take, to make, to shake<br />
+            I wanna see it happen<br />
+            I want to see, to be, the one that plays the game<br />
+            Without no fears and regrets<br />
+            I want to know you better than I know myself<br />
+            I want to feel the end and to enjoy the consequence<br />
+            <br />
+            I am playing the game<br />
+            The one that will take me to my end<br />
+            I am waiting for the rain<br />
+            To wash, who I am
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="lyric" id="cv4-extollere">
+          <h3>Extollere</h3>
+          <h4>Delerium</h4>
+          <p class="appears">Appears on <a href="#cvmix4"><span class="dni number">4</span>Sundered Shard</a></p>
+          <p>
+            Blow, northerne wind<br />
+            Send thou me my sweting<br />
+            <br />
+            Hire lure lumes light<br />
+            Ase a launterne anight<br />
+            Hire blikieth so bright<br />
+            Fair he is and fine<br />
+            <br />
+            Swetly swire he hath to holde<br />
+            With armes, shuldre ase mon wolde<br />
+            Fingres faire to folde<br />
+            God wolde he were mine<br />
+            <br />
+            Blow, northerne wind<br />
+            Send thou me my sweting
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="lyric" id="cv4-smashing">
+          <h3>Smashing the Opponent</h3>
+          <h4>Infected Mushroom</h4>
+          <p class="appears">Appears on <a href="#cvmix4"><span class="dni number">4</span>Sundered Shard</a></p>
+          <p>
+            Smack me again and I cant believe its true<br />
+            Smashing the opponent<br />
+            was not my intention to do<br />
+            <br />
+            Foresee such an outcome<br />
+            to the unnecessary ending<br />
+            I wish I could retrace all my steps<br />
+            and erase my mistakes<br />
+            with you<br />
+            <br />
+            Tempt me again and I will forget the truth<br />
+            Backing your decision<br />
+            Was something I neglected to do<br />
+            <br />
+            If you feel rage<br />
+            to strike me with revenge<br />
+            I'll be standing by<br />
+            waiting without fear<br />
+            for you<br />
+            <br />
+            I wanted to say<br />
+            You shouldn't suffer this way<br />
+            I wanted to say<br />
+            I hope I can take it away
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="lyric" id="cv4-uninstall">
+          <h3>Uninstall</h3>
+          <h4>Ishikawa Chiaki</h4>
+          <p class="appears">Appears on <a href="#cvmix4"><span class="dni number">4</span>Sundered Shard</a></p>
+          <p class="romaji">
+            ano toki saikou no REAL ga mukou kara ai ni kita nowa<br />
+            bokura no sonzai wa konna ni tanjun dato warai ni kitanda<br />
+            mimi wo fusaidemo ryoute wo surinukeru shinjitsu ni madou yo<br />
+            hosoi karada no doko ni chikara wo irete tateba ii?<br />
+            <br />
+            UNINSTALL UNINSTALL<br />
+            kono hoshi no musuu no chiri no hitotsu dato<br />
+            ima no boku niwa rikai dekinai<br />
+            UNINSTALL UNINSTALL<br />
+            osore wo shiranai senshi no youni<br />
+            furumau shikanai UNINSTALL<br />
+            <br />
+            bokura no muishiki wa katte ni togisumasarete-iku you da<br />
+            BED no shita no rinkaku no nai kehai ni<br />
+            kono me ga hiraku toki wa kokoro nado nakute<br />
+            nanimokamo kowashite shimau hageshisa dake<br />
+            shizuka ni kiete-yuku kisetsu mo erabenai to iu no nara<br />
+            <br />
+            UNINSTALL UNINSTALL<br />
+            boku no kawari ga inai nara<br />
+            futsuu ni nagareteta ano nichijou wo<br />
+            UNINSTALL UNINSTALL<br />
+            kono te de owarasetaku naru<br />
+            nanimo warui koto jyanai UNINSTALL<br />
+            <br />
+            UNINSTALL UNINSTALL<br />
+            kono hoshi no musuu no chiri no hitotsu dato<br />
+            ima no boku niwa rikai dekinai<br />
+            UNINSTALL UNINSTALL<br />
+            osore wo shiranai senshi no youni<br />
+            furumau shikanai UNINSTALL
+          </p>
+          <p class="translation">
+            It came from beyond the extreme reaches of our reality,<br />
+            It came to laugh at our naive existences.<br />
+            I am puzzled by the truth that slips through my hands even as I cover my ears.<br />
+            Where in this thin body do I find the strength to stand?<br />
+            <br />
+            Uninstall, uninstall.<br />
+            I was told that I am just one of the countless specks of dust on this planet,<br />
+            But that is something I cannot yet comprehend.<br />
+            Uninstall, uninstall.<br />
+            I have no choice but to pretend that<br />
+            I am a warrior who knows no fear. Uninstall.<br />
+            <br />
+            Our subconscious grows sharper without us realizing.<br />
+            When I open my eyes to the contourless presence below my bed,<br />
+            I am devoid of any feelings,<br />
+            Except an impulse to destroy everything and anything.<br />
+            Since I can't even choose the season of my passing<br />
+            <br />
+            Uninstall, uninstall.<br />
+            If there's no one left to replace me,<br />
+            Then I will take that regular daily life and<br />
+            Uninstall, uninstall.<br />
+            It makes me want to end everything with these hands.<br />
+            It's not a bad thing to uninstall.<br />
+            <br />
+            Uninstall, uninstall.<br />
+            I was told that I am just one of the countless specks of dust on this planet,<br />
+            But that is something I cannot yet comprehend.<br />
+            Uninstall, uninstall.<br />
+            I have no choice but to pretend that<br />
+            I am a warrior who knows no fear. Uninstall.
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="lyric" id="cv4-answers">
+          <h3>Answers</h3>
+          <h4>Nobuo Uematsu feat. Susan Calloway</h4>
+          <p class="appears">Appears on <a href="#cvmix4"><span class="dni number">4</span>Sundered Shard</a></p>
+          <p>
+            To all of My children<br />
+            in whom Life flows abundant<br />
+            To all of My children<br />
+            to whom Death hath passed his judgment<br />
+            The soul yearns for honor<br />
+            and the flesh the hereafter<br />
+            Look to those who walked before<br />
+            to lead those who walked after<br />
+            <br />
+            Shining is the Land's light of justice<br />
+            Ever flows the Land's well of purpose<br />
+            Walk free<br />
+            Walk free<br />
+            Walk free and believe<br />
+            The Land's alive<br />
+            so believe!<br />
+            <br />
+            Suffer (Feel) Promise (Think) Witness (Teach) Reason (Hear)<br />
+            Follow (Feel) Wander (Think) Stumble (Teach) Listen (Speak)<br />
+            Honor (Speak) Value (Tell) Whisper (Tell) Mention (Hope)<br />
+            Ponder (Hope) Warrant (Wish) Cherish (Wish) Welcome (Roam)<br />
+            Witness (Roam) Listen (Roam) Suffer (Roam) Sanction (Sleep)<br />
+            Weather (Sleep) Wander (Sleep)<br />
+            Answer<br />
+            Sleep on<br />
+            <br />
+            Now open your eyes<br />
+            while our plight is repeated<br />
+            Still deaf to our cries<br />
+            lost in hope we lie defeated<br />
+            Our souls have been torn<br />
+            and our bodies forsaken<br />
+            Bearing sins of the past<br />
+            for our future is taken<br />
+            <br />
+            War born of strife, these trials dissuade us not<br />
+            (Feel what? Learn what?)<br />
+            Words without sound, these lies betray our thoughts<br />
+            Mired by a plague of doubt, the Land, she mourns<br />
+            (See what? Hear what?)<br />
+            Judgment binds all we hold to a memory of scorn<br />
+            Tell us why<br />
+            given life<br />
+            we are meant to die<br />
+            helpless in our cries!<br />
+            <br />
+            Witness (Feel) Suffer (Think) Borrow (Teach) Reason (Hear)<br />
+            Follow (Feel) Stumble (Think) Wander (Teach) Listen (Blink)<br />
+            Whisper (Blink) Shoulder (Blink) Ponder (Blink) Weather (Hear)<br />
+            Answer (Look) Answer (Think)<br />
+            Answer together!<br />
+            <br />
+            Thy life is a riddle, to bear rapture and sorrow<br />
+            To listen, to suffer, to entrust unto tomorrow<br />
+            In one fleeting moment, from the Land doth life flow<br />
+            Yet in one fleeting moment, for anew it doth grow<br />
+            In the same fleeting moment<br />
+            thou must live, die, and know
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="lyric" id="cv5-nextroom">
+          <h3>The Next Room</h3>
+          <h4>Henry Scott Holland</h4>
+          <p class="appears">Appears on <a href="#cvmix5"><span class="dni number">5</span>Light Everlasting</a></p>
+          <p>
+            Death is nothing at all.<br />
+            I have only slipped away to the next room.<br />
+            I am I and you are you.<br />
+            Whatever we were to each other,<br />
+            That, we still are.<br />
+            <br />
+            Call me by my old familiar name.<br />
+            Speak to me in the easy way you always used.<br />
+            Put no difference into your tone.<br />
+            Wear no forced air of solemnity or sorrow.<br />
+            <br />
+            Laugh as we always laughed<br />
+            at the little jokes we enjoyed together.<br />
+            Play, smile, think of me. Pray for me.<br />
+            Let my name be ever the household word that it always was.<br />
+            Let it be spoken without effect.<br />
+            Without the trace of a shadow on it.<br />
+            <br />
+            Life means all that it ever meant.<br />
+            It is the same that it ever was.<br />
+            There is absolute unbroken continuity.<br />
+            Why should I be out of mind<br />
+            because I am out of sight?<br />
+            <br />
+            I am but waiting for you.<br />
+            For an interval, somewhere.<br />
+            Very near.<br />
+            Just around the corner.<br />
+            <br />
+            All is well.
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="lyric" id="cv5-hide">
+          <h3>Hide and Seek</h3>
+          <h4>Kyau and Albert</h4>
+          <p class="appears">Appears on <a href="#cvmix5"><span class="dni number">5</span>Light Everlasting</a></p>
+          <p>
+            Hide and seek, you hide and seek<br />
+            When tomorrow seems to fade, where will you be<br />
+            Hide and seek, you hide and seek<br />
+            Take a look at you and see you break inside<br />
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="lyric" id="cv5-icarus">
+          <h3>Icarus</h3>
+          <h4>Flutlicht</h4>
+          <p class="appears">Appears on <a href="#cvmix5"><span class="dni number">5</span>Light Everlasting</a></p>
+          <p>
+            He led the way in flight<br />
+            And was anxious for his companion<br />
+            Like a bird that leads its young<br />
+            From the nest into the air<br />
+            <br />
+            He encouraged Icarus to follow him<br />
+            And showed him the skills<br />
+            That were to destroy him<br />
+            He moved his wings<br />
+            And looked back at those of his son
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="lyric" id="cv5-home">
+          <h3>Home</h3>
+          <h4>Above &amp; Beyond feat. Hannah Thomas</h4>
+          <p class="appears">Appears on <a href="#cvmix5"><span class="dni number">5</span>Light Everlasting</a></p>
+          <p>
+            Here I come to find myself, catch the tide,<br />
+            Looking for a peace at the end of the line.<br />
+            Sometimes I can't help myself, fever's high,<br />
+            I'm all at sea and so unwise.<br />
+            <br />
+            I'm so afraid I'll lose your love, as time goes by,<br />
+            But courage is a fire and a beacon so bright.<br />
+            The sunset built a memory, our love sign,<br />
+            And all at sea we come alive.<br />
+            <br />
+            Will I wash away, turning like a stone?<br />
+            I need a place where I belong.<br />
+            Call a setting sun to throw me down a rope<br />
+            And take me to a place called home.<br />
+            <br />
+            I close my eyes, I know you're there, love of mine,<br />
+            Standing on the shore in a world I design.<br />
+            The sunset fires a lonely flare into the sky,<br />
+            And all at sea we say goodbye.<br />
+            <br />
+            Will I wash away, turning like a stone?<br />
+            I need a place where I belong.<br />
+            Call a setting sun to throw me down a rope<br />
+            And take me to a place called home.<br />
+            <br />
+            A place called home.
+          </p>
+        </div>
+
+        <hr />
+
+        <div class="lyric" id="cv5-brave">
+          <h3>Brave Song</h3>
+          <h4>Girls Dead Monster</h4>
+          <p class="appears">Appears on <a href="#cvmix5"><span class="dni number">5</span>Light Everlasting</a></p>
+          <p class="romaji">
+            Itsumo hitori de aruiteta<br />
+            Furikaeru to minna wa tooku<br />
+            Sore demo atashi wa aruita<br />
+            Sore ga tsuyosa datta<br />
+            Mou nani mo kowakunai<br />
+            Sou tsubuyaite miseru<br />
+            <br />
+            Itsuka hito wa hitori ni natte<br />
+            Omoide no naka ni ikiteku dake<br />
+            Kodoku sae aishi waratterareru yori<br />
+            Atashi wa tatakaun'da<br />
+            Namida nante misenain'da<br />
+            <br />
+            Itsumo hitori de aruiteta<br />
+            Iku saki ni wa gake ga matteta<br />
+            Sore demo atashi wa aruita<br />
+            Tsuyosa no shoumei no tame<br />
+            Fukitsukeru tsuyoi kaze<br />
+            Ase de shatsu ga haritsuku<br />
+            <br />
+            Itsuka wasurete shimaeru nara<br />
+            Ikiru koto sore wa tayasui mono<br />
+            Bougyaku no kanata e to ochite iku nara<br />
+            Sore wa nigeru koto darou<br />
+            Ikita imi sura kieru darou<br />
+            <br />
+            Kaze wa yagate naideta<br />
+            Ase mo kawaite<br />
+            Onaka ga suite kita na<br />
+            Nani ka attakke<br />
+            Nigiyaka na koe to tomo ni<br />
+            Ii nioi ga yatte kita<br />
+            <br />
+            Itsumo hitori de aruiteta<br />
+            Minna ga matte ita<br />
+            <br />
+            Itsuka hito wa hitori ni natte<br />
+            Omoide no naka ni ikiteku dake<br />
+            Sore demo ii yasuraka na kono kimochi wa<br />
+            Sore wo nakama to yobun'da<br />
+            <br />
+            Itsuka minna to sugoshita hibi<br />
+            Mo wasurete doko ka de ikiteru yo<br />
+            Sono toki wa mou tsuyoku nanka nai yo<br />
+            Futsuu no onna no ko no<br />
+            Yowasa de namida wo kobosu yo
+          </p>
+          <p class="translation">
+            I was always walking alone<br />
+            When I looked back, everyone was far away<br />
+            Nevertheless, I walked on<br />
+            That was my strength<br />
+            I'm not afraid of anything anymore<br />
+            Or so I whisper to show you<br />
+            <br />
+            I was always walking alone<br />
+            When I looked back, everyone was far away<br />
+            Nevertheless, I walked on<br />
+            That was my strength<br />
+            I'm not afraid of anything anymore<br />
+            Or so I whisper to show you<br />
+            <br />
+            I was always walking alone<br />
+            A cliff was waiting for me at my destination<br />
+            Nevertheless, I walked on<br />
+            For the proof of my strength<br />
+            A strong wind blows against me<br />
+            My shirt sticks to me with sweat<br />
+            <br />
+            If I end up being able to forget it someday<br />
+            Then living - It's just a simple thing<br />
+            If I fall into the yonder of oblivion<br />
+            That's running away, right?<br />
+            Even the meaning of having lived will vanish, right?<br />
+            <br />
+            The wind soon calmed down<br />
+            My sweat dried, too<br />
+            And I felt hungry<br />
+            Did something happen, hm?<br />
+            A nice scent came along<br />
+            With lively voices<br />
+            <br />
+            I was always walking alone<br />
+            Everyone was waiting for me<br />
+            <br />
+            Someday, people will be alone<br />
+            And only live on within memories<br />
+            Even so, that's okay<br />
+            I call my peaceful feelings 'friends'<br />
+            <br />
+            Someday, I'll forget the days I spent with everyone<br />
+            And be living elsewhere<br />
+            By then, I won't be strong anymore<br />
+            With the weakness of an ordinary girl<br />
+            I'll shed tears
+          </p>
+        </div>
       </div>
+      <a id="back-to-top" href="#"><i class="fa fa-angle-double-up"></i><br />top</a>
     </main>
   </div>
 </body>
